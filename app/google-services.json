@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "39651601130",
+    "project_number": "",
     "project_id": "envionotificacionescurso",
     "storage_bucket": "envionotificacionescurso.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:39651601130:android:bc0dd3cf19e7b446ce4593",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.kuvuni.envionotificaciones"
         }

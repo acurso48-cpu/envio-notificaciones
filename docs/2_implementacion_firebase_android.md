@@ -293,24 +293,9 @@ Para que `onMessageReceived` se ejecute en segundo plano, debes enviar un mensaj
 
 1.  Ejecuta tu aplicación. Concede el permiso y pulsa el botón "Obtener Token FCM". Copia el token que aparece en el Logcat.
 2.  Pon la aplicación en segundo plano o ciérrala.
-3.  Usa una herramienta como Postman, `curl` o un script de servidor para enviar una petición POST a la API de FCM.
+3.  En Firebase, abre tu proyecto. En Messaging, crea una campaña y prueba (tienes que poner el token del Logcat.
+    
 
-    **Endpoint:** `https://fcm.googleapis.com/fcm/send`
-
-    **Headers:**
-    *   `Content-Type`: `application/json`
-    *   `Authorization`: `key=TU_CLAVE_DE_SERVIDOR` (La puedes encontrar en la Consola de Firebase -> Ajustes del Proyecto -> Cloud Messaging -> Clave del servidor)
-
-    **Body (Cuerpo de la Petición):**
-    ```json
-    {
-      "to": "EL_TOKEN_DE_TU_DISPOSITIVO_QUE_COPIASTE",
-      "data": {
-        "title": "¡Prueba desde Servidor!",
-        "body": "Este mensaje se procesa en segundo plano."
-      }
-    }
-    ```
 
 Si todo está configurado correctamente, deberías ver aparecer una notificación en tu dispositivo, creada por el código que escribiste en `showNotification()`.
 

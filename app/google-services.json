@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39651601130",
+    "project_id": "envionotificacionescurso",
+    "storage_bucket": "envionotificacionescurso.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39651601130:android:bc0dd3cf19e7b446ce4593",
+        "android_client_info": {
+          "package_name": "com.kuvuni.envionotificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4HqVzf4intkp-CpkO0bN-Swbm8mLOK60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
